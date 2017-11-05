@@ -1,1 +1,0 @@
-# gignosko.github.io

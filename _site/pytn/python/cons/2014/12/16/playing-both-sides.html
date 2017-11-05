@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Playing both sides</title>
+
+	<link rel="stylesheet" href="/me/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/me/pytn/python/cons/2014/12/16/playing-both-sides.html">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+
+</head> 
+
+
+
+<body>
+	<aside>
+	<div class="container">
+		<nav>
+			<ul>
+				 
+				<li><a href="/me/about/">About</a></li>
+				           
+				<li><a href="/me/blog">Blog</a></li>
+			</ul>
+			</li>
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<header>
+	<h1><a href="/me">Always learning</a></h1>
+</header>
+ 
+
+
+	<main>
+		<article>
+			<h2>Playing both sides</h2>
+<time>Dec 16, 2014</time>
+<div>
+<span> File under: 
+
+vim
+
+emacs
+
+clojure
+
+</span>
+</div>
+<p>vim was my first editor. Technically, I tried Emacs first many years ago after I first installed Linux. Those were the days when you HAD to edit config files to get Linux to work with your hardware and the HOW-TO I was reading used Emacs, so I tried it. I pretty quickly moved on to a different HOW-TO, one that used vim and for some reason switching between normal mode to move around, insert mode to type, visual mode to manipulate text and the handful of other modes that do everything else, that way of thinking about text manipulation just made sense to me. When I first started as a developer a dozen or so years later, I wrote everything in vim: bash scripts, sql commands, even Java files (I eventually moved to an IDE for Java once my projects got too big, but turning on vim mode was always my first step). vim just fit me and I told everyone who was using sublime or textmate or atom that they were using the wrong text editor!</p>
+
+<p>Then, a year or so ago I discovered Clojure and for the first time really fell in love with a programming language in the same way that I had fallen in love with vim. I work in python now and I really enjoy it, and I’m looking forward to learning node as my team moves into new projects, but I love a Lisp in a whole other way (we shan’t mention Java again. Ever). While learning Clojure, though, I felt a constant pressure to switch to Emacs. <a href="http://www.flyingmachinestudios.com/">Daniel Higginbotham’s</a> incredibly entertaining and enlightening <a href="http://www.braveclojure.com/">Clojure for the Brave and True </a>devotes a chapter to teaching you the basics of Emacs and cider for interacting with the clojure repl; and most tutorials assume you’re using Emacs, so the authors are happy to show you how they’ve configured their environment to get the most out of Clojure using it’s older sibling Emacs Lisp (or Elisp once you get to know each other). There was even evil-mode, a vim mode that strives to emulate vim completely and thus wrestle Emacs into shape and makes it behave like a proper text editor.</p>
+
+<p>And so, around two months ago, I decided to make the switch. And to do it right, to really get into Emacs, it had to be a full switch. I stopped using vim and I started using Emacs at work and at home. I spent hours researching how to load packages and map commands, configuring evil-mode to emulate not only vim, but MY vim setup. I got my leader key straightened out, I set up my motion keys to move between windows in the way I was used to, I tried out .emacs.d setups from a variety of places (Daniel Higginbotham has a great setup for Clojure/cider on his Clojure for the Brave and True site and <a href="https://github.com/xiaohanyu/oh-my-emacs">oh-my-emacs</a> gives you everything but the kitchen sink, especially if you’re a developer in any number of languages).  I made peace with the idea of abandoning my 15 year long love affair with vim, but decide evil-mode made it ok. vim was still my text editor, it was just working in the Emacs ecosystem.</p>
+
+<p>And what an ecosystem it is. The old saw that Emacs is a great operating system that’s only lacking a good text editor isn’t far off. Evil-mode helped me transition quickly so I wouldn’t have much downtime at work trying to create new muscle memory. Elpy made working with python easy and once I had ctags running again, Emacs was as powerful as any IDE. <a href="https://github.com/clojure-emacs/cider">Cider</a> gives me direct access to the clojure repl and since Emacs is asynchronous, it can do so without hanging on a long running process. I even started making plans to write my own extensions to fill in the gaps where Emacs wasn’t doing exactly what I wanted. And <a href="http://orgmode.org/">org-mode</a> made me actually enjoy taking notes on my projects.</p>
+
+<p>I can keep a terminal open in Emacs to run commands. I can tie into the python debugger. <a href="https://github.com/bbatsov/projectile">Projectile</a> helps me keep my 15 odd work projects in order by letting me search tags and files only within a project, but I can use other commands to search across projects when I need to (and I do need to often). I can even read xkcd inside Emacs! The power is almost dizzying. The reasons to use Emacs are almost limitless!</p>
+
+<p>As so it was that I sat down at my work computer this morning, fired up vim and breathed a sigh of relief. You see, for all the reasons to choose Emacs, there’s one really good reason not to: I really love vim. Yes, evil-mode is great and I never ran across something I could do in vim that I couldn’t do in evil-mode. And using Elisp to configure and potentially write extensions was easy and powerful because it had all the loveliness of a Lisp. But in the end, it wasn’t home. The environment had quirks that I knew would never sit right with me; speedbar isn’t nerdtree; I found myself using vim to edit my user.el file!. And while I could make Emacs do almost everything vim could do, the reverse is also true. Aside from being synchronous (an issue that will hopefully be resolved with neovim), there isn’t anything I can’t do in vim. Despite having all the same key bindings, despite having all the same functions (and sometimes even more) Emacs just didn’t feel right to me; I constantly felt like I was a stranger in a strange land, that I was working in some odd parallel world that was almost, but not quite, exactly unlike like my own.</p>
+
+<p>When I sat down to work in vim, everything flowed. I was able to worry about my programming problems and not even think about my programming environment. Some people may think that two months wasn’t enough time to fully overcome 15 years of vim use and switch to a different editor, but it really all boils down to a psychological comfort and vim gives me that. Unlike other conflicts of the psyche, such as religion, it’s not really possible to be a text-editor atheist when you’re a programmer; you have to choose something and when you’re in a bind and need to push code out in a hurry, or even when you have time to play around and explore a new library or paradigm or language, your choice of editors can save your soul. I might keep working in Emacs occasionally, trying to see if I can reach the divine spark that so many others have found.  But for now, for me, my faith lies with vim.</p>
+
+
+
+		</article>
+		<footer>
+	<p>By <a href="http://gignosko.me">Derik</p>
+</footer>
+
+
+	</main>
+</body>
+
+</html>
