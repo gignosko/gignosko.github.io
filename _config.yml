@@ -17,7 +17,7 @@ title: Always learning
 email: derik.pell@gmail.com
 descriptioi: >-
     A blog about technology, programming, functional programming, and life in general
-baseurl: "/me"
+baseurl: ""
 url: "http://localhost:4000"
 twitter_username: _gignosko_
 github_username:  gignosko
