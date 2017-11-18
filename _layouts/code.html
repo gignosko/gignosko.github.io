@@ -4,12 +4,12 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-<div>
+<div id="1">
     <span> File under: 
     {% for tag in page.tags %}
     {{ tag }}
     {% endfor %}
     </span>
 </div>
-{{ content }}
 
+{{ content }}
