@@ -1,3 +1,6 @@
+html {
+    background-color: black;
+}
 body {
 	margin: 0;
 	color: $font-color;
@@ -37,11 +40,11 @@ a:hover {
 	text-decoration: underline;
 }
 header {
-	background: $header;
+    background: $header;
 	padding: 0px 15px;
 	text-align: center;
 	margin: 50px 0 0;
-	height: 50vh;
+	height: 20vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,7 +109,8 @@ aside {
 	}
 }
 footer {
-	text-align: center;
+	//text-align: center;
 	padding: 40px;
+    border: 1px solid;
 }
 

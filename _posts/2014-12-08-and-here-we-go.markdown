@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: code
 title:  "And here we go!"
 date:   2014-12-08 20:20:00 -0500
 categories: pytn python cons
