@@ -2,7 +2,6 @@
 layout: post
 title:  "Playing both sides"
 date:   2014-12-16 22:09:00 -0500
-categories: pytn python cons
 tags: vim emacs clojure 
 ---
 vim was my first editor. Technically, I tried Emacs first many years ago after I first installed Linux. Those were the days when you HAD to edit config files to get Linux to work with your hardware and the HOW-TO I was reading used Emacs, so I tried it. I pretty quickly moved on to a different HOW-TO, one that used vim and for some reason switching between normal mode to move around, insert mode to type, visual mode to manipulate text and the handful of other modes that do everything else, that way of thinking about text manipulation just made sense to me. When I first started as a developer a dozen or so years later, I wrote everything in vim: bash scripts, sql commands, even Java files (I eventually moved to an IDE for Java once my projects got too big, but turning on vim mode was always my first step). vim just fit me and I told everyone who was using sublime or textmate or atom that they were using the wrong text editor!
